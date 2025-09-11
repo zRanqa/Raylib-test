@@ -1,0 +1,24 @@
+{
+    "configurations": [
+        {
+            "name": "Mac",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/opt/homebrew/Cellar/raylib/5.5/include"  // Add this path for Raylib headers
+            ],
+            "defines": [],
+            "intelliSenseMode": "macos-gcc-x64",
+            "compilerPath": "/usr/bin/g++",
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "browse": {
+                "path": [
+                    "${workspaceFolder}",
+                    "/opt/homebrew/Cellar/raylib/5.5/include"  // Also add it here for browsing files
+                ],
+                "limitSymbolsToIncludedHeaders": true
+            }
+        }
+    ],
+    "version": 4
+}
