@@ -6,14 +6,13 @@
 class Player {
 public:
     int id;
-    int x;
-    int y;
-    int width;
+    Vector2 pos;
+    int width; 
     int height;
     Color color;
 
     Player(int id, int x, int y, int width, int height, Color color);
-    void move(int dx, int dy);
+    void move(Vector2 newPos);
 
 };
 
